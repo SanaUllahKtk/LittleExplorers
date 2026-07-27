@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-primary-base, #6366F1);
+  --color-primary-hover: var(--color-primary-hover-base, #4F46E5);
+  --color-primary-border: var(--color-primary-border-base, #4338CA);
+  --color-primary-light: var(--color-primary-light-base, #EEF2FF);
+}
+
+.theme-indigo {
+  --color-primary-base: #6366F1;
+  --color-primary-hover-base: #4F46E5;
+  --color-primary-border-base: #4338CA;
+  --color-primary-light-base: #EEF2FF;
+}
+
+.theme-emerald {
+  --color-primary-base: #10B981;
+  --color-primary-hover-base: #059669;
+  --color-primary-border-base: #047857;
+  --color-primary-light-base: #ECFDF5;
+}
+
+.theme-amber {
+  --color-primary-base: #F59E0B;
+  --color-primary-hover-base: #D97706;
+  --color-primary-border-base: #B45309;
+  --color-primary-light-base: #FFFBEB;
+}
+
+.theme-pink {
+  --color-primary-base: #EC4899;
+  --color-primary-hover-base: #DB2777;
+  --color-primary-border-base: #BE185D;
+  --color-primary-light-base: #FDF2F8;
+}
+
+.theme-ocean {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+}
+.theme-forest {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+}
+.theme-sunset {
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+}
+.theme-galaxy {
+  background: linear-gradient(135deg, #ede7f6 0%, #d1c4e9 100%);
+}
